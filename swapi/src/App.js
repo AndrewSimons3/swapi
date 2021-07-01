@@ -20,7 +20,7 @@ function App() {
         releaseDate: movieData.release_date 
       };
     });
-      setMovies(transformedMovies);
+      setMovies(transformedMovies);   
       setIsLoading(false);
   }
 
